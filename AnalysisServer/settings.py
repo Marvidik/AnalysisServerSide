@@ -123,6 +123,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Static files (CSS, JavaScript, images)
 STATIC_URL = '/static/'
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'assets')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Media files (uploads, user-generated content)
