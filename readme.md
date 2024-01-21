@@ -5,7 +5,6 @@ This repository is for The server side of the ecommerce dashboard
 
 
 ## Installation
-It's highly recommended managing a python environment with Anaconda for this project 
 
 Clone the Repository:
 ```
