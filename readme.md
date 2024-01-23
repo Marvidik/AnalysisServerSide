@@ -21,8 +21,9 @@ This will install all necessary Python libraries as listed in requirements.txt.
 ## Migrations
 ```
 python manage.py makemigrations
-
 python manage.py migrate
+
+The above two lines of codes should run for any  change made in the models.py
 ```
 
 
