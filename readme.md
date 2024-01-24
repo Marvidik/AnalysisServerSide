@@ -1,6 +1,11 @@
 # E-commerce Analytics Dashboard Backend
 
 This repository is for The server side of the ecommerce dashboard
+It has Endpoints to
+# Get the current data data
+# Post new data
+# Update the current days data
+# Get any days data
 
 
 
