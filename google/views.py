@@ -9,24 +9,6 @@ from datetime import date
 
 # Create your views here.
 
-
-@api_view(["GET"])
-def getlatestgoogle(request):
-    if request.method == 'GET':
-
-        
-        # Retrieve all GoogleData instances from the database
-        google_data_objects = GoogleData.objects.filter(today=date.today())
-
-        # Serialize the data using GoogleDataSerializer
-        serializer = GoogleDataSerializer(google_data_objects, many=True)
-
-        # Return the serialized data in the response
-        return Response(serializer.data, status=status.HTTP_200_OK)
-     
-
-
-
 @api_view(["POST"])
 def post_new_analysis(request):
     if request.method == "POST":
