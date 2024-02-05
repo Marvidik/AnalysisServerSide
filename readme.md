@@ -9,7 +9,7 @@ It has Endpoints to
 
 
 
-## Installation
+## Installation andn running
 
 Clone the Repository:
 ```
